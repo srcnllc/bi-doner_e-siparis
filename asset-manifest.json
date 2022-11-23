@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bi-doner_e-siparis/static/css/main.f065253f.css",
-    "main.js": "/bi-doner_e-siparis/static/js/main.d85ac188.js",
+    "main.js": "/bi-doner_e-siparis/static/js/main.fc1fc4d2.js",
     "static/media/kurye1.png": "/bi-doner_e-siparis/static/media/kurye1.faa51a8bd229dcb125f0.png",
     "static/media/etdürüm.png": "/bi-doner_e-siparis/static/media/etdürüm.2290440741ebed01c717.png",
     "static/media/ekmeketdoner.png": "/bi-doner_e-siparis/static/media/ekmeketdoner.47b619a68e26f6d90c60.png",
@@ -9,10 +9,10 @@
     "static/media/TavukEkmek.png": "/bi-doner_e-siparis/static/media/TavukEkmek.fbcfde9b27283bd159c2.png",
     "index.html": "/bi-doner_e-siparis/index.html",
     "main.f065253f.css.map": "/bi-doner_e-siparis/static/css/main.f065253f.css.map",
-    "main.d85ac188.js.map": "/bi-doner_e-siparis/static/js/main.d85ac188.js.map"
+    "main.fc1fc4d2.js.map": "/bi-doner_e-siparis/static/js/main.fc1fc4d2.js.map"
   },
   "entrypoints": [
     "static/css/main.f065253f.css",
-    "static/js/main.d85ac188.js"
+    "static/js/main.fc1fc4d2.js"
   ]
 }
