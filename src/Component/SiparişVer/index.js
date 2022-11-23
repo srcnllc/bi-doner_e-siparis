@@ -170,7 +170,6 @@ function Sipariş() {
             <li>{ekistek}</li>
           </ul>
           <button onClick={handlelocale}>Sİparişi Tamamla</button>
-
         </div>
       </div>
     </div>

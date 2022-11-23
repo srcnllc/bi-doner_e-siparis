@@ -97,7 +97,7 @@ function Home() {
                         delay: 2,
                         ease: [0, 0.71, 0.2, 1.01]
                     }}>
-                    <Link to='/siparişver' >Sipariş Ver</Link>
+                    <Link to='/bi-doner_e-siparis/siparişver' >Sipariş Ver</Link>
                 </motion.div>
             </div>
         </div>

@@ -6,11 +6,11 @@ import { Link} from 'react-router-dom'
 function Header() {
   return (
     <header className='header'>
-        <Link to='/'><h1>Bİ-DÖNER ...</h1></Link>
+        <Link to='/bi-doner_e-siparis/'><h1>Bİ-DÖNER ...</h1></Link>
         <p>Bi-Döner Alabilirmiyim lütfen?</p>
         <ul>
-            <Link to='/siparişver'><li className='siparişver'>Sipariş Ver</li></Link>
-            <Link to='/siparişlerim'><li>Siparişlerim</li></Link>
+            <Link to='/bi-doner_e-siparis/siparişver'><li className='siparişver'>Sipariş Ver</li></Link>
+            <Link to='/bi-doner_e-siparis/siparişlerim'><li>Siparişlerim</li></Link>
         </ul>
     </header>
   )

@@ -10,9 +10,9 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/siparişver' element={<Sipariş />} />
-          <Route path='/siparişlerim' element={<Siparişlerim />} />
+          <Route path='/bi-doner_e-siparis/' element={<Home/>}/>
+          <Route path='/bi-doner_e-siparis/siparişver' element={<Sipariş />} />
+          <Route path='/bi-doner_e-siparis/siparişlerim' element={<Siparişlerim />} />
         </Routes>
       </Router>
   );
