@@ -62,3 +62,9 @@
  .buton:hover{
     background-color: #31572c;
 }
+@media screen and (max-width:480px) {
+    .home{flex-direction: column;}
+    .iste .slogan{
+        font-size: 20px;
+    }
+}

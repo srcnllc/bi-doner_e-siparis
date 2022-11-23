@@ -45,3 +45,15 @@
 .header ul li:hover{
     background-color: #31572c;
 }
+@media screen and (max-width:480px) {
+    .header{
+        flex-direction: column;
+        height: 20%;
+    }
+}
+@media screen and (max-width:760px) {
+    .header{
+        flex-direction: column;
+        height: 15%;
+    }
+}
