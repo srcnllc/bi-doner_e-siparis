@@ -1,0 +1,80 @@
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+.content h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.content .spiaris{
+    display: flex;
+    height: 100%;
+}
+.form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:center;
+    margin-top: 15px;
+}
+
+.dönersections input{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+.dönersections input:hover{
+    background-color: #fc8d03;
+}
+.dönersections input:focus{
+    background-color: #1e7f8c;
+}
+.siparişiniz{
+    width: 30%;
+    border-left: 2px solid rgb(95, 104, 104,.5);
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 10px 30px;
+    text-align: center;
+}
+.siparişiniz h1{
+    font-style: italic;
+    border-bottom: 4px solid black;
+}
+.siparişiniz ul li{
+    font-weight: bold;
+    word-wrap:break-word;
+    text-align: left;
+
+}
+
+.isim , .adress , .telefon , .ekistek{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+}
+input , textarea{
+    padding: 5px;
+    margin-top: 5px;
+}
+.soğan , .ketcapgroup{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.siparişiniz button{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    background-color: #fc8d03;
+    border-radius: 5px;
+    cursor: pointer;
+}

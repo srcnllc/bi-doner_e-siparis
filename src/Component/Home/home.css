@@ -32,15 +32,15 @@
     font-weight: bold;
 }
 
-.dönerimage{
+.dönerimage , .box{
     display: flex;
     justify-content: center ;
     flex-wrap: wrap;
     gap: 10px;
     row-gap: 10px;
 }
-.dönerimage img{
-    width: 40%;
+.image {
+    width: 250px;
     height: 150px;
     box-shadow: 1px 1px 5px #fc8d03;
 }
@@ -50,12 +50,14 @@
     padding: 10px;
     margin-top: 10px;
     justify-content:center; 
-    font-size: x-large;
-    text-decoration: none;
-    color: #fff;
     background-color: #fc8d03;
     border-radius: 5px;
     transition: all 2s;
+ }
+ .buton a{
+    font-size: x-large;
+    text-decoration: none;
+    color: #fff;
  }
  .buton:hover{
     background-color: #31572c;
